@@ -32,3 +32,8 @@ code {
     padding-left: 3px;
     padding-right: 3px;
 }
+
+figure {
+    border: 2px solid #eee;
+    border-radius: 20px;
+}

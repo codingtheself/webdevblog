@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Day 05: Rewriting Svelte and Image Problem</title>
+  <link rel="stylesheet" href="../assets/style.css"/>
+</head>
+<body>
+  <div id="Home" style="font-size: large;">
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/posts.html">Blog Posts</a></li>
+      </ul>
+    </nav>
+
+    <hr>
+
+    <h1 style="text-align: center;">Day 05: Rewriting Svelte and Image Problem</h1>
+    <hr>
+
+    <div class="content-box" style="width: 75%; margin-left: auto; margin-right: auto;">
+    
+      <h3><u>What's my Goal today?</u></h3>
+
+      <p>
+        <ul>
+          <li>Start rewriting some parts of my original HTML blog using Svelte.</li>
+          <li>Make reusable Svelte components like <code>Navbar</code>, <code>ContentBox</code>, <code>Header</code>, <code>Footer</code>.</li>
+          <li>Try building a small CLI tool in JavaScript that converts Markdown files into HTML.</li>
+        </ul>
+      </p>
+
+      <br>
+
+      <h3><u>Problems I Faced</u></h3>
+
+      <p>
+        <ul>
+
+          <li>
+            I started rewriting my this original HTML blog to integrate <b><a href="https://svelte.dev/docs/svelte/overview">Svelte</a></b>. But got stuck while trying to add images.
+            <br><br>
+            For some reason, the image paths aren't rendering correctly in the generated HTML. Need to debug that soon.
+          </li>
+
+          <br>
+
+          <li>
+            Another thing: I can navigate between pages using <code>use:link</code> on anchor tags, but directly visiting URLs like <code>/post/day05</code> doesn't render the right page (404).
+            <br><br>
+            Maybe it's something with hash-based routing or the Vite server setup. Will dive deeper tomorrow.
+          </li>
+        </ul>
+      </p>
+
+      <br>
+
+      <h3><u>What I've Learned</u></h3>
+
+      <p>
+        <ul>
+          <li>
+            Creating small, reusable components in Svelte using <code>&lt;slot /&gt;</code>
+          </li>
+
+          <br>
+
+          <li>
+            Started creating a Markdown-To-HTML converter in NodeJS to help me write blog posts by only writing markdown and it will generate the appropriate HTML file which I can use.
+          </li>
+          <br>
+
+          <li>
+            CLI tools feel fun to build. Even if it's just parsing markdown and printing HTML — seeing the result instantly is awesome.
+          </li>
+        </ul>
+
+      <figure style="text-align: center;">
+        <img src="../assets/images/day05-svelte-modularity-routing.png" alt="VS Code and me rewriting the original blog using Svelte" width="700vw" height="470vh"/>
+        <figcaption style="font-size: small;">Rewriting and creating components for svelte</figcaption>
+      </figure>
+
+      <figure style="text-align: center;">
+        <img src="../assets/images/day05-svelte-conditionals.png" alt="trying svelte to render html for each item in the array" width="700vw" height="470vh"/>
+        <figcaption style="font-size: small;">trying svelte to render html for each item in the array</figcaption>
+      </figure>
+
+      </p>
+
+      <hr>
+
+      That’s it for today — feeling a bit stuck on image rendering and direct URL routing, but still making steady progress!
+      <br><br>
+      If you're learning to build your blog or tools, feel free to connect with me!
+
+      <ul>
+        <li><a href="https://x.com/coding_theself">Twitter -> @Coding_TheSelf</a></li>
+        <li><a href="https://www.linkedin.com/in/sourav-yadav-self/">LinkedIn -> sourav-yadav-self</a></li>
+        <li><a href="https://dev.to/coding_self">Dev.To -> coding_self</a></li>
+      </ul>
+
+      <br><br>
+
+      <hr>
+      <div class="bottom-nav" style="margin-top: 20px; margin-bottom: 50px; width: 100%; display: flex; flex-direction: row; justify-content: space-between;">
+        <span><a href="day04.html"><< Prev</a></span>
+        <span><a href="/index.html">Next >></a></span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
