@@ -8,7 +8,7 @@
     const subTitle = "What's my Goal";
     const title = "Day 06: Finally Integrated Svelte Library in my Blog";
 
-    const back_url = "/posts/day05";
+    const back_url = "/posts/day07";
     const next_url = "/";
 
 </script>
