@@ -1,6 +1,8 @@
 
 import Home from "./lib/Home.svelte";
 import About from "./lib/About.svelte";
+import Posts from "./lib/Posts.svelte";
+
 import Day01 from "./posts/day01.svelte";
 import Day02 from "./posts/day02.svelte";
 import Day03 from "./posts/day03.svelte";
@@ -13,6 +15,7 @@ import Day08 from "./posts/day08.svelte";
 const routes = {
   "/": Home,
   "/about": About,
+  "/posts": Posts,
   "/posts/day01": Day01,
   "/posts/day02": Day02,
   "/posts/day03": Day03,

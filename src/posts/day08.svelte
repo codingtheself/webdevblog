@@ -6,6 +6,7 @@
     import Image from "../lib/Image.svelte";
 
     const subTitle = "Trying to do Something";
+    
     const title = "Day 08: Got Overwhelmed + learning TailwindCSS";
 
     const back_url = "/posts/day07";
@@ -17,13 +18,13 @@
     <Contentbox {subTitle}>
 
         <ul>
-          <li>I have been taking two days of Rest as I was with other things</li>
-          <li>trying to learn and use <a href="https://vuejs.org/">Vue.JS</a> before trying <b>ReactJS</b></li>
-          <li>I also got some problem with <i>GitHub Page</i> and selecting my <code>/dist</code> folder and not my <code>/root</code> folder.</li>
+          <li>there is too many things going on all at the same time so got overwhelmed and thought of going back to some basics one by one.</li>
+          <li>So, I am trying to create beautiful looking and also responsive websites with <a href="https://tailwindcss.com/">TailwindCSS</a></li>
+          <br>
+
         </ul>
-
+          <Image image_src="assets/images/day08-tailwindcss.png" image_alt="my attempt to start start coding with tailwindcss and make a login page" image_width="800" image_height="500" image_caption="my attempt to start code and build a Login Page, learning quite a lot" />
       <br>
-
         <Footer {back_url} {next_url} />
     </Contentbox>
 </Header>
