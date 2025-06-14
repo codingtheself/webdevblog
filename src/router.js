@@ -11,6 +11,7 @@ import Day05 from "./posts/day05.svelte";
 import Day06 from "./posts/day06.svelte";
 import Day07 from "./posts/day07.svelte";
 import Day08 from "./posts/day08.svelte";
+import Day09 from "./posts/day09.svelte";
 
 const routes = {
   "/": Home,
@@ -24,6 +25,7 @@ const routes = {
   "/posts/day06": Day06,
   "/posts/day07": Day07,
   "/posts/day08": Day08,
+  "/posts/day09": Day09,
   "*": Home
 };
 

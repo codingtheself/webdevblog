@@ -14,6 +14,7 @@
        
         <div class="blogposts" style="margin-top: 2em; font-size: x-large;">
             <ul>
+                <li><a href="/posts/day09" use:link>Day 09: Doing CSS layout Design + learned some ReactJS</a></li>
                 <li><a href="/posts/day08" use:link>Day 08: Got Overwhelmed + learning TailwindCSS</a></li>
                 <li><a href="/posts/day07" use:link>Day 07: Some Rest + trying Vue.JS</a></li>
                 <li><a href="/posts/day06" use:link>Day 06: Finally Integrated Svelte Library in my Blog</a></li>

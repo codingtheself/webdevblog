@@ -10,7 +10,7 @@
     const title = "Day 08: Got Overwhelmed + learning TailwindCSS";
 
     const back_url = "/posts/day07";
-    const next_url = "/";
+    const next_url = "/posts/day09";
 
 </script>
 
